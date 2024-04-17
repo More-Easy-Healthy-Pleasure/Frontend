@@ -5,7 +5,9 @@ function Main() {
     return (
         <div className="main-container">
             <div className="container green">
-                <div className="fade-in-out">더 쉽고,</div>
+                <div className="fade-in-out">
+                    더 쉽고,
+                </div>
             </div>
             <div className="container white">
                 <div className="fade-in-out">더 싸게,</div>
