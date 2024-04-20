@@ -6,13 +6,12 @@
 .main-top-container {
     display: flex;
     flex-direction: column;
-    height: 300vh; 
+    height: 200vh; 
     width: 100vw;
 }
 
 .main-container {
     display: flex;
-    height: 100vh;
     width: 100%;
     max-width: 100% !important;
     justify-content: center;
