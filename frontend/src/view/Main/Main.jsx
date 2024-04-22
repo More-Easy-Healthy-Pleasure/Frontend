@@ -39,7 +39,7 @@ function Main() {
                     <Col className="green-text">당신의 헬시플레</Col>
                     <Col className="white-text">저를 지키세요.</Col>
                 </Row>
-                <Row className="main-container">
+                <Row className="main-container" style={{marginTop:"-1%"}}>
                     <Row 
                         className="nav-container"
                         style={{ width:"100%" }}>
