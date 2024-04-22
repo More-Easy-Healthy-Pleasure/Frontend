@@ -6,10 +6,12 @@ import './Navibar.css'
 function Navibar() {
     return (
         <>
-            <Navbar bg="dark" data-bs-theme="dark">
+            <Navbar>
                 <Container>
-                    <Navbar.Brand href="#home" className="me-auto">
-                        건담
+                    <Navbar.Brand href="/" className="me-auto">
+                        <img
+                            id = "navibar-logo" 
+                            src="/img/top_logo.png"></img>
                     </Navbar.Brand>
                     <Nav className="ms-auto">
                         <Nav.Link className="navibar-menu" href="#home">시세 확인</Nav.Link>
@@ -17,7 +19,7 @@ function Navibar() {
                     </Nav>
                 </Container>
             </Navbar>
-
+            <hr style={{ borderColor: "#65A938" }} />
         </>
     );
 }

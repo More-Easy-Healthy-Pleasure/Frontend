@@ -1,7 +1,9 @@
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
 import './Main.css';
+
 import Navibar from "../../Component/Navibar";
+import Footer from "../../Component/Footer";
 
 function Main() {
     return (
@@ -37,13 +39,13 @@ function Main() {
                     <Col className="green-text">당신의 헬시플레</Col>
                     <Col className="white-text">저를 지키세요.</Col>
                 </Row>
-                <Row className="main-container" style={{marginTop:"-1%"}}>
+                <Row className="main-container">
                     <Row 
-                        className="nav-container fade-in-out"
-                        style={{ marginTop: "-5%", width:"100%" }}>
+                        className="nav-container"
+                        style={{ width:"100%" }}>
                         <Navibar></Navibar>
                     </Row>
-                    <Row className="main-container white" style={{ height: "45vh"}}>
+                    <Row className="main-container fade-in-out white" style={{ height: "80vh"}}>
                         <div
                             className="fade-in-out"
                             style={{ fontSize: "2rem" }}
@@ -52,6 +54,7 @@ function Main() {
                         </div>
                     </Row>
                 </Row>
+                <Footer></Footer>
             </div>
         </>
 

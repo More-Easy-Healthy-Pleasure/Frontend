@@ -1,4 +1,9 @@
 .navibar-menu{
-    font-weight: 300;
-    font-size: 0.8rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #65A938;
 }
+
+#navibar-logo{
+    max-width: 6rem;
+} 
