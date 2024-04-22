@@ -6,7 +6,9 @@
 .main-top-container {
     display: flex;
     flex-direction: column;
-    height: 200vh; 
+    gap: 0px;
+    grid-auto-rows: minmax(0, auto);
+    height: 100%; 
     width: 100vw;
 }
 
@@ -23,7 +25,6 @@
 }
 
 .nav-container {
-    height: 33vh;
     width: 100%;
     max-width: 100% !important;
     justify-content: center;
