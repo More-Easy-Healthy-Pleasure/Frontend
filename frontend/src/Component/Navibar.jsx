@@ -15,7 +15,7 @@ function Navibar() {
                     </Navbar.Brand>
                     <Nav className="ms-auto">
                         <Nav.Link className="navibar-menu" href="#home">시세 확인</Nav.Link>
-                        <Nav.Link className="navibar-menu" href="#features">레시피 확인</Nav.Link>
+                        <Nav.Link className="navibar-menu" href="/recipe">레시피 확인</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

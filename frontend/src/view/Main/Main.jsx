@@ -1,11 +1,19 @@
 import React from "react";
 import { Button, Col, Row } from "react-bootstrap";
+import { useNavigate } from 'react-router-dom';
 import './Main.css';
 
 import Navibar from "../../Component/Navibar";
 import Footer from "../../Component/Footer";
 
 function Main() {
+
+    const navigate = useNavigate();
+
+    function moveRecipe(){
+        navigate('/recipe')
+    }
+
     return (
         <>
             <div className="main-top-container">
@@ -17,6 +25,7 @@ function Main() {
                     </Row>
                     <Row className="green">
                         <Button
+                            onClick={moveRecipe}
                             variant="outline-light"
                             className="fade-in-out"
                             style={{ width: "40%", marginLeft: "auto", marginRight: "auto", marginTop: "-3%" }}>
