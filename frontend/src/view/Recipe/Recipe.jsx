@@ -6,7 +6,6 @@ import Navibar from "../../Component/Navibar";
 import Footer from "../../Component/Footer";
 import RecipeContainer from "./RecipeContainer";
 
-
 function Recipe() {
     return (
         <>
