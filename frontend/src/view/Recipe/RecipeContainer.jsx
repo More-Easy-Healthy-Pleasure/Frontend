@@ -4,9 +4,8 @@ import './Recipe.css';
 
 import SearchBar from "./SearchBar";
 
-
 function RecipeContainer() {
-
+  
     return (
         <>
             <Accordion defaultActiveKey="0">
@@ -15,7 +14,7 @@ function RecipeContainer() {
                     <Accordion.Body>
                         <SearchBar></SearchBar>
                     </Accordion.Body>
-                    
+                
                 </Accordion.Item>
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>📎 레시피 전체 확인</Accordion.Header>
