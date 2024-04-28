@@ -3,6 +3,7 @@ import { Accordion } from "react-bootstrap";
 import './Recipe.css';
 
 import SearchBar from "./SearchBar";
+import TotalRecipe from "./TotalRecipe";
 
 function RecipeContainer() {
   
@@ -19,7 +20,7 @@ function RecipeContainer() {
                 <Accordion.Item eventKey="1">
                     <Accordion.Header>📎 레시피 전체 확인</Accordion.Header>
                     <Accordion.Body>
-                        
+                        <TotalRecipe></TotalRecipe>
                     </Accordion.Body>
                 </Accordion.Item>
             </Accordion>
