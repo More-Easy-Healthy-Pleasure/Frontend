@@ -1,0 +1,43 @@
+
+.wrap {
+    text-align: center;
+}
+
+.wrap hr {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.card-wrap {
+    margin: 2rem 4rem 2rem 4rem;
+}
+
+.price-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.price-card p {
+    margin: 0;
+}
+
+.price-card hr {
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.price-info{
+    display: flex;
+    width: 100%;
+}
+
+.price-wrap {
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.price-info p{
+    margin-right: 1rem;
+}
+

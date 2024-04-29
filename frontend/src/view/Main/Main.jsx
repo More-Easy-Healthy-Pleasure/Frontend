@@ -14,6 +14,10 @@ function Main() {
         navigate('/recipe')
     }
 
+    function movePrice(){
+        navigate('/price')
+    }
+
     return (
         <>
             <div className="main-top-container">
@@ -37,6 +41,7 @@ function Main() {
                     <div className="fade-in-out"> 더 싸게,</div>
                     <Row className="white">
                         <Button
+                            onClick={movePrice}
                             variant="outline-dark"
                             className="fade-in-out"
                             style={{ width: "40%", marginLeft: "auto", marginRight: "auto", marginTop: "-3%" }}>
