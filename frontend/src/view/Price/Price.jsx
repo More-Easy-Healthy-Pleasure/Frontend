@@ -3,7 +3,7 @@ import Navibar from "../../Component/Navibar";
 import Footer from "../../Component/Footer";
 import PriceContainer from "./PriceContainer";
 
-function Recipe() {
+function Price() {
     return (
         <>
             <Navibar></Navibar>
@@ -14,4 +14,4 @@ function Recipe() {
     );
 }
 
-export default Recipe;
+export default Price;

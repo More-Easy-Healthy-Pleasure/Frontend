@@ -1,0 +1,179 @@
+{
+  "data": [
+    {
+      "code": "21200",
+      "양배추": [
+        {
+          "id": 1,
+          "countyname": "전국",
+          "date": "2024-04-22",
+          "price": 1111
+        },
+        {
+          "id": 2,
+          "countyname": "전국",
+          "date": "2024-04-23",
+          "price": 1222
+        },
+        {
+          "id": 3,
+          "countyname": "전국",
+          "date": "2024-04-24",
+          "price": 1333
+        },
+        {
+          "id": 4,
+          "countyname": "전국",
+          "date": "2024-04-25",
+          "price": 1444
+        },
+        {
+          "id": 5,
+          "countyname": "전국",
+          "date": "2024-04-26",
+          "price": 1555
+        }
+      ]
+    },
+    {
+      "code": "990199",
+      "쌀": [
+        {
+          "id": 1,
+          "countyname": "전국",
+          "date": "2024-04-22",
+          "price": 2111
+        },
+        {
+          "id": 2,
+          "countyname": "전국",
+          "date": "2024-04-23",
+          "price": 2222
+        },
+        {
+          "id": 3,
+          "countyname": "전국",
+          "date": "2024-04-24",
+          "price": 2333
+        },
+        {
+          "id": 4,
+          "countyname": "전국",
+          "date": "2024-04-25",
+          "price": 2444
+        },
+        {
+          "id": 5,
+          "countyname": "전국",
+          "date": "2024-04-26",
+          "price": 2555
+        }
+      ]
+    },
+    {
+      "code": "990199",
+      "닭(1kg)": [
+        {
+          "id": 1,
+          "countyname": "전국",
+          "date": "2024-04-22",
+          "price": 3111
+        },
+        {
+          "id": 2,
+          "countyname": "전국",
+          "date": "2024-04-23",
+          "price": 3222
+        },
+        {
+          "id": 3,
+          "countyname": "전국",
+          "date": "2024-04-24",
+          "price": 3333
+        },
+        {
+          "id": 4,
+          "countyname": "전국",
+          "date": "2024-04-25",
+          "price": 3444
+        },
+        {
+          "id": 5,
+          "countyname": "전국",
+          "date": "2024-04-26",
+          "price": 3555
+        }
+      ]
+    },
+    {
+      "code": "26501",
+      "콩나물": [
+        {
+          "id": 1,
+          "countyname": "전국",
+          "date": "2024-04-22",
+          "price": 4111
+        },
+        {
+          "id": 2,
+          "countyname": "전국",
+          "date": "2024-04-23",
+          "price": 4222
+        },
+        {
+          "id": 3,
+          "countyname": "전국",
+          "date": "2024-04-24",
+          "price": 4333
+        },
+        {
+          "id": 4,
+          "countyname": "전국",
+          "date": "2024-04-25",
+          "price": 4444
+        },
+        {
+          "id": 5,
+          "countyname": "전국",
+          "date": "2024-04-26",
+          "price": 4555
+        }
+      ]
+    },
+    {
+      "code": "25200",
+      "미나리": [
+        {
+          "id": 1,
+          "countyname": "전국",
+          "date": "2024-04-22",
+          "price": 5111
+        },
+        {
+          "id": 2,
+          "countyname": "전국",
+          "date": "2024-04-23",
+          "price": 5222
+        },
+        {
+          "id": 3,
+          "countyname": "전국",
+          "date": "2024-04-24",
+          "price": 5333
+        },
+        {
+          "id": 4,
+          "countyname": "전국",
+          "date": "2024-04-25",
+          "price": 5444
+        },
+        {
+          "id": 5,
+          "countyname": "전국",
+          "date": "2024-04-26",
+          "price": 5555
+        }
+      ]
+    }
+  ]
+}

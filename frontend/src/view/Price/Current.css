@@ -1,0 +1,15 @@
+.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* 내용물이 모달의 전체 높이를 채우도록 설정 */
+}
+
+.modal-open {
+    overflow: hidden; /* 스크롤 방지 */
+}
+
+.modal-backdrop.show {
+    opacity: 0.1; /* 배경 투명도 */
+    backdrop-filter: blur(20px); /* 블러 효과 */
+}
