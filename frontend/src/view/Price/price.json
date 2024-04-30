@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "닭가슴살 샐러드",
-      "img": "https://mblogthumb-phinf.pstatic.net/MjAyMTA2MjFfMjU0/MDAxNjI0Mjg0ODA5ODEx.PWo1hEfQsURIMb0gpy76RrrFkhG0hN4riMLG7LyFMbAg.7Abi9Ie3Pwn0WGiEV3owpp0rZ0Fa2ho6sZl8oaOijc4g.JPEG.lalacucina/%EB%8B%AD%EA%B0%80%EC%8A%B4%EC%82%B4_%EC%83%90%EB%9F%AC%EB%93%9C.jpg?type=w800",
+      "img": "https://cdn.pixabay.com/photo/2014/12/21/23/29/salad-575436_1280.png",
       "ingredients": [
         {
           "item": "양배추",
@@ -22,7 +22,7 @@
     {
       "id": 2,
       "name": "나물비빔밥",
-      "img": "https://i.ytimg.com/vi/BluUvokGQBM/maxresdefault.jpg",
+      "img": "https://cdn.pixabay.com/photo/2023/07/13/01/20/ai-generated-8123681_1280.png",
       "ingredients": [
         {
           "item": "쌀",

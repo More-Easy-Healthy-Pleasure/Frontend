@@ -3,6 +3,7 @@ import "./PriceContainer.css"
 import price from "./price.json";
 import Card from "react-bootstrap/Card";
 import {Col, Row} from "react-bootstrap";
+import CurrentContainer from "./Current.jsx";
 
 
 function PriceContainer() {
@@ -19,6 +20,16 @@ function PriceContainer() {
         };
     });
 
+    const [showModal, setShowModal] = useState(false);
+    const [selectedIngredient, setSelectedIngredient] = useState('');
+
+    const handleShowModal = (ingredients) => {
+        setShowModal(true);
+        setSelectedIngredient(ingredients);
+    };
+
+    const handleCloseModal = () => setShowModal(false);
+
     return (
         <div>
             <div className="wrap">
@@ -29,6 +40,7 @@ function PriceContainer() {
                 <div className="price-card">
                     {priceData.map((recipe, index) => (
                         <Card key={index} className="bg-light text-dark" style={{width: '18rem', marginBottom: '20px'}}>
+                            {/*이미지 공간*/}
                             <Card.Img src={recipe.img} alt={recipe.name}
                                       style={{filter: "brightness(0.9)", width:'18rem',height:'10rem',objectFit: 'cover'}}/>
                             <Card.Body>
@@ -44,7 +56,7 @@ function PriceContainer() {
                                                     </div>
                                                 </Col>
                                                 <Col xs={12} md={4}>
-                                                    <Card.Link href="#">가격 추세</Card.Link>
+                                                    <Card.Link onClick={() => handleShowModal(ingredient.item)}>가격 추세</Card.Link>
                                                 </Col>
                                             </Row>
                                         </div>
@@ -56,6 +68,7 @@ function PriceContainer() {
                         </Card>
                     ))}
                 </div>
+                {showModal && <CurrentContainer show={showModal} handleClose={handleCloseModal} ingredientName={selectedIngredient} />}
             </div>
         </div>
     )
