@@ -10,7 +10,10 @@ function Recipe() {
     return (
         <>
             <Navibar></Navibar>
-            <RecipeContainer></RecipeContainer>
+            <div id="recipe-contents">
+                <RecipeContainer></RecipeContainer>
+            </div>
+            
             <Footer></Footer>
         </>
 
